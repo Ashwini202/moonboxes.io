@@ -12,6 +12,7 @@ import { LandingComponent } from './landing/landing.component';
 import { MoonbaseComponent } from './moonbase.component';
 import { PrizePoolComponent } from './prize-pool/prize-pool.component';
 import { RarityComponent } from './rarity/rarity.component';
+import { NFTCollectionsComponent } from './nftcollections/nftcollections.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
       {
         path: LandingComponent.routeName,
         component: LandingComponent
+      },
+      {
+        path: 'nfcollections',
+        component: NFTCollectionsComponent
       },
       {
         path: 'application',

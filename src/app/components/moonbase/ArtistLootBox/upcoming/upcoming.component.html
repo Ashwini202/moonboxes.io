@@ -8,7 +8,7 @@
                 <div class="flex flex-col">
                     <div class="flex">
                         <div class="flex flex-col w100 flex-center">
-                            <p class="flex1 flex justify-center p30d24m orbitron bold flex-row flex1 mb30">MoonBox Drops</p>
+                            <p class="flex1 flex justify-center p30d24m orbitron bold flex-row flex1 mb30">RBITS Drops</p>
                             <div class="tabs-container flex flex-xs-col mb30">
                                 <a class="tab" [ngClass]="getButtonType(dropsCategory.RECENT)" (click)="changeTab(dropsCategory.RECENT)">Recent</a>
                                 <a class="tab" [ngClass]="getButtonType(dropsCategory.LIVE)" (click)="changeTab(dropsCategory.LIVE)">Live</a>
@@ -76,7 +76,7 @@
                                     </a>
 
 
-                                    <a *ngIf="currentCategory === dropsCategory.LIVE" class="button text-inherit mb20" [routerLink]="['/artist',item.walletAddress]">Buy MoonBoxes</a>
+                                    <a *ngIf="currentCategory === dropsCategory.LIVE" class="button text-inherit mb20" [routerLink]="['/artist',item.walletAddress]">Buy Rabbit Boxes</a>
                                     <a [class.disabled]="item.revealDate === 'Application form'" class="outlined-button mb20 text-inherit" (click)="viewDetails(item)">Collection info</a>
                                 </div>
                             </div>
